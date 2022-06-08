@@ -1,0 +1,44 @@
+.login-section {
+  height: 100%;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-template-areas:
+    ". a a ."
+    ". a a .";
+
+  & .container {
+    align-items: center;
+    justify-content: center;
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+
+    & .title-login {
+      font-size: 1.8rem;
+      font-weight: 500 !important;
+      margin-bottom: 0.75rem;
+      text-align: center;
+      color: #42ACD4;
+    }
+
+    & .ant-form {
+      display: grid;
+      width: 28em;
+
+      & .ant-form-item-control {
+        margin-bottom: 5px;
+      }
+
+      & .anticon {
+        color: #42ACD4;
+      }
+    }
+
+    & .form-submit {
+      width: 100%;
+    }
+  }
+}

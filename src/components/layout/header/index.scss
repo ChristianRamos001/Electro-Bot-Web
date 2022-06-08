@@ -1,0 +1,32 @@
+.ant-layout-header {
+  height: 64px;
+  padding: 0 24px;
+  color: rgba(0, 0, 0, .85);
+  line-height: 64px;
+  background: white;
+  display: flex;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 0 6px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #42ACD4 !important;
+}
+
+.session {
+  width: 100%;
+  text-align: end;
+}
+
+.pipeline {
+  border-right: solid 1px #a3a3a3;
+  border-bottom: solid 1px #a3a3a3;
+  border-bottom-right-radius: 10px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

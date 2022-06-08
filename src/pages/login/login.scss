@@ -1,0 +1,12 @@
+.Login {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/foto-gratis/primer-plano-medico-delante-fondo-brillante_53419-4416.jpg?w=2000");
+  background-size: cover;
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+}
